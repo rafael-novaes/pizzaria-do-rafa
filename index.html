@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzaria do Rafa</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="media/logo.png" alt="Logo da Pizzaria do Rafa" />
+      </div>
+
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Cardápio</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inicio">
+        <div class="banner">
+          <img
+            src="media/banner.png"
+            alt="Pizza sendo servida com forno aceso atrás"
+          />
+          <div class="conteudo-banner">
+            <h1>A verdadeira pizza italiana em cada fatia</h1>
+            <p>Ingredientes selecionados, massa artesanal e muito sabor.</p>
+            <button>Ver Cardápio</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="carrossel">
+        <h2>Nosso Cardápio:</h2>
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagem1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="imagem2.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
